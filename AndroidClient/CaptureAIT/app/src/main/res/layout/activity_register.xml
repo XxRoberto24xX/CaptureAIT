@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/register_background"
+    tools:context=".view.authentication.RegisterActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:text="Registro de Usuario"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="15dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/labelName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:drawablePadding="12dp"
+            android:hint="Nombre de Usuario"
+            android:inputType="textPersonName"
+            app:drawableLeftCompat="@drawable/ic_persona" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="15dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/labelEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:drawablePadding="12dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            app:drawableLeftCompat="@drawable/ic_email" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="15dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/labelPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:drawablePadding="12dp"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            app:drawableLeftCompat="@drawable/ic_security" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="15dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/labelPasswordRepeat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:drawablePadding="12dp"
+            android:hint="Repita la Contraseña"
+            android:inputType="textPassword"
+            app:drawableLeftCompat="@drawable/ic_security" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:backgroundTint="@color/orange1"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="50dp"
+        android:textAllCaps="false"
+        android:text="Registrarse"/>
+
+    <TextView
+        android:id="@+id/alreadyHaveAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Ya tengo una cuenta" />
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "618890590952",
+    "project_id": "capture-ait",
+    "storage_bucket": "capture-ait.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618890590952:android:1ea357a5a0a4c8b68b275d",
+        "android_client_info": {
+          "package_name": "com.captureait.captureait"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618890590952-so43v1rcg4of370pauaimlc9hi0k3oop.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.captureait.captureait",
+            "certificate_hash": "8936c472c2e3c08426c1d1908b831ab9a38bf22d"
+          }
+        },
+        {
+          "client_id": "618890590952-inegqoce41dfdej6dci47cf0vs3vmupl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzq1Gaml06CyR5IBjxEUgzYc5qnJrgwoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618890590952-inegqoce41dfdej6dci47cf0vs3vmupl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

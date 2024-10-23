@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/auxiliar_background"
+    android:orientation="vertical"
+    tools:context=".view.authentication.NameSelectionActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Nombre de Usuario"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="15dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/labelName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:drawablePadding="12dp"
+            android:hint="Selecciona un Nombre de Usuario"
+            android:inputType="textPersonName"
+            app:drawableLeftCompat="@drawable/ic_persona" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="5dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/blue4"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:text="Continuar"/>
+
+</LinearLayout>

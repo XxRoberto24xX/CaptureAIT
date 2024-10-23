@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_mail"
+            android:title="Mensajes" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_person"
+            android:title="Cuenta" />
+
+        <item
+            android:id="@+id/nav_stats"
+            android:icon="@drawable/ic_stats"
+            android:title="Estadídticas" />
+
+    </group>
+
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logOut"
+                android:icon="@drawable/ic_logout"
+                android:title="SignOut" />
+        </menu>
+    </item>
+
+</menu>
