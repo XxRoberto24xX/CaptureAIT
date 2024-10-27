@@ -35,7 +35,7 @@ This project uses:
 
 ## Getting Started
 
-To set up and run the project locally:
+To set up and run the project locally you will need:
 
 1. **Clone the Repository**:  
    ```bash
