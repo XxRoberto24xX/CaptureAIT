@@ -1,0 +1,5 @@
+Flask==2.0.3
+Flask-SocketIO==5.3.2
+Pillow==9.0.1
+ultralytics==8.0.0
+torch==1.12.1  # Asegúrate de usar la versión adecuada para tu sistema
